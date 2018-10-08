@@ -1,0 +1,28 @@
+{
+  "name": "Gmail Email Templates",
+  "description": "Insert a template into a message draft with just a couple of clicks",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*",
+        "https://inbox.google.com/*"
+      ],
+      "all_frames": true,
+      "js": ["inboxsdk.js","bundle.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "list-256x256.png", "*.svg"
+    ],
+  "icons": {
+    // "16": "new-post.png",
+    // "48": "new-post.png",
+    "128": "new-post.png"
+  }
+}

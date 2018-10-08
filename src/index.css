@@ -1,0 +1,90 @@
+.inboxsdk__menuContent {
+  border-style: none !important;
+}
+
+.dropdown {
+  width: 304px;
+  height: 391px;
+  border-radius: 4px;
+}
+
+p {
+  padding: 10px 16px;
+  margin: 0 0 4px 0;
+  color: white;
+  background-color: #404040;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  height: 276px;
+  margin: 0;
+  overflow: scroll;
+}
+
+li {
+  display: flex;
+}
+
+li:hover {
+  background-color: whitesmoke;
+}
+
+li:active {
+  border-style: none !important;
+}
+
+li > a:first-child {
+  cursor: pointer;
+  padding: 8px 0 8px 16px;
+  display: flex;
+  flex: auto;
+}
+
+li > a:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+li > a:nth-child(2) > img {
+  width: 14px;
+  cursor: pointer;
+  padding: 4px 4px;
+}
+
+li > a:nth-child(2) > img:hover {
+  background-color: gainsboro;
+}
+
+.subject {
+  width: 40%;
+}
+
+.message {
+  color: gray;
+}
+
+.edit {
+  border-top: 1px solid lightgray;
+  background-color: whitesmoke;
+}
+
+.create, .manage {
+  cursor: pointer;
+  padding: 6px 16px 6px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.create:hover, .manage:hover {
+  background-color: gainsboro;
+}
+
+img {
+  margin-right: 6px;
+}
+
+.manage img {
+  padding: 2px;
+}
