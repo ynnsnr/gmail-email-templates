@@ -27,6 +27,6 @@ Deleting a snippet:
 
 ![](gif/gif4.gif)
 
-## Syncing your snippets
+## Syncing your snippets (optional)
 
 ![](gif/gif5.gif)
